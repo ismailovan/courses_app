@@ -9,7 +9,7 @@ python -m venv env
 env\Scripts\activate
 ```
 
-Now that we're inside a virtual environment, install project's package requirements.
+Now that you're inside a virtual environment, install project's package requirements.
 ```
 pip install django
 pip install djangorestframework
