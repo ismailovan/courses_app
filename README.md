@@ -39,7 +39,7 @@ Go to localhost:
 
 ## Documentation
 
-HOST http://127.0.0.1:8000/course/
+LOCALHOST http://127.0.0.1:8000/
 
 ### Course List
 
