@@ -131,7 +131,7 @@ Course List is a simple API allowing consumers to view courses.
 ### Course [/course/{course_id}]
 
 + Parameters
-    + courseid (number) - ID of the Course in the form of an integer
+    + course_id (number) - ID of the Course in the form of an integer
     
 ## Deployment
 
