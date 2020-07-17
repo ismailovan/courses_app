@@ -80,15 +80,59 @@ Course List is a simple API allowing consumers to view courses.
 
 ```
 {
-    "name": "",
-    "description": "",
-    "category": null,
-    "logo": "",
-    "contacts": [],
-    "branches": []
+    "name": "Test",
+    "description": "Testing",
+    "category": 1,
+    "logo": "logo.jpg",
+    "contacts": [
+            {
+                "contact_type": 1,
+                "value": "01111111"
+            }
+     ],
+    "branches": [
+            {
+                "latitude": "Test",
+                "longtitude": "Test",
+                "adress": "Test"
+            }
+    ]
 }
 ```
 
++ Response 201 (application/json)
+
+    + Headers
+
+            Location: /course/1
+
+    + Body
+```
+{
+        "name": "Testing",
+        "description": "test",
+        "category": 2,
+        "logo": "test",
+        "contacts": [
+            {
+                "contact_type": 1,
+                "value": "01111111"
+            }
+        ],
+        "branches": [
+            {
+                "latitude": "Test",
+                "longtitude": "Test",
+                "adress": "Test"
+            }
+        ]
+    }
+```
+### Course [/course/{course_id}]
+
++ Parameters
+    + courseid (number) - ID of the Course in the form of an integer
+    
 ## Deployment
 
 ## Built With
@@ -105,5 +149,3 @@ There is no other versions
 ## Authors
 
 * <b>Nazgul Ismailova</b> - *initial work* - [ismailovan](https://github.com/ismailovan)
-ребята, если вы пишите в личку с вопросом, то не ожидайте того, что я вам исправлю все ошибки(говорю именно о логической ошибке, а не синтаксической). вы должны подумать над алгоритмом своего решения. если программа не выводит как надо, значит ошибка именно в логике.
-
