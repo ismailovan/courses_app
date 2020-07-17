@@ -74,7 +74,7 @@ Course List is a simple API allowing consumers to view courses.
   
 ```
 
-#### Create a New Question [POST]
+#### Create a New Course [POST]
 
 + Request *(application/json)*
 
@@ -100,7 +100,7 @@ Course List is a simple API allowing consumers to view courses.
 }
 ```
 
-+ Response 201 (application/json)
++ Response 201 *(application/json)*
 
     + Headers
 
