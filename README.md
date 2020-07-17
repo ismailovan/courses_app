@@ -104,10 +104,10 @@ Course List is a simple API allowing consumers to view courses.
 
     + Headers
 
-            Location: /course/1
+                Location: /course/1
 
     + Body
-```
+        ```
         {
                 "name": "Testing",
                 "description": "test",
@@ -127,7 +127,7 @@ Course List is a simple API allowing consumers to view courses.
                     }
                 ]
             }
-```
+        ```
 ### Course [/course/{course_id}]
 
 + Parameters
