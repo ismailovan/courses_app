@@ -16,7 +16,6 @@ python -m venv env
 env\Scripts\activate
 ```
 
-
 Now that you're inside a virtual environment, install project's package requirements:
 
 ```
@@ -36,12 +35,24 @@ Go to localhost:
 * for courses list to http://127.0.0.1:8000/course/
 * for course detail to http://127.0.0.1:8000/course/ {course id}
 
+## Running the tests
+
 ## Documentation
 
-To understand:
+## Deployment
+
+## Built With
 
 * [Django](https://docs.djangoproject.com/en/3.0/)
 * [Django Rest Framework](https://www.django-rest-framework.org/)
 * [Tutorial](https://www.django-rest-framework.org/tutorial/1-serialization/) which was used in order to learn REST API
 * [RESTful API guidelines](https://opensource.zalando.com/restful-api-guidelines/)
+
+## Versioning
+
+There is no other versions
+
+## Authors
+
+* <b>Nazgul Ismailova</b> - *initial work* - [ismailovan](https://github.com/ismailovan)
 
