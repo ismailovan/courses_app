@@ -40,6 +40,10 @@ Go to localhost:
 ## Documentation
 
 [Courses Application's API](https://coursesappapi.docs.apiary.io/#)
+
+APIs for:
+* [Course List](https://private-d9ffe8-coursesappapi.apiary-mock.com/course)
+* [Course Detail](https://private-d9ffe8-coursesappapi.apiary-mock.com/course/course_id)
     
 ## Deployment
 
