@@ -49,7 +49,7 @@ Course List is a simple API allowing consumers to view courses.
 
 #### List All Courses [GET]
 
-+ Response 200 *(application/json)
++ Response 200 *(application/json)*
 
 ```
     {
