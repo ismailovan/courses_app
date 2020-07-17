@@ -39,6 +39,56 @@ Go to localhost:
 
 ## Documentation
 
+HOST http://127.0.0.1:8000/course/
+
+### Course List
+
+Course List is a simple API allowing consumers to view courses.
+
+#### Courses Collection [/course]
+
+#### List All Courses [GET]
+
++ Response 200 *(application/json)
+
+```
+    {
+        "name": "Bakery courses",
+        "description": "How to make cakes and pies!",
+        "category": 3,
+        "logo": "img.jpg",
+        "contacts": [
+            {
+                "contact_type": 1,
+                "value": "0999999999"
+            }
+        ],
+        "branches": [
+            {
+                "latitude": "42.874622",
+                "longtitude": "74.569763",
+                "adress": "7th microdistrict"
+            }
+        ]
+    }
+  
+```
+
+#### Create a New Question [POST]
+
++ Request *(application/json)*
+
+```
+{
+    "name": "",
+    "description": "",
+    "category": null,
+    "logo": "",
+    "contacts": [],
+    "branches": []
+}
+```
+
 ## Deployment
 
 ## Built With
@@ -55,4 +105,5 @@ There is no other versions
 ## Authors
 
 * <b>Nazgul Ismailova</b> - *initial work* - [ismailovan](https://github.com/ismailovan)
+ребята, если вы пишите в личку с вопросом, то не ожидайте того, что я вам исправлю все ошибки(говорю именно о логической ошибке, а не синтаксической). вы должны подумать над алгоритмом своего решения. если программа не выводит как надо, значит ошибка именно в логике.
 
