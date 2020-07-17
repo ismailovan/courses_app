@@ -108,25 +108,25 @@ Course List is a simple API allowing consumers to view courses.
 
     + Body
 ```
-{
-        "name": "Testing",
-        "description": "test",
-        "category": 2,
-        "logo": "test",
-        "contacts": [
-            {
-                "contact_type": 1,
-                "value": "01111111"
+        {
+                "name": "Testing",
+                "description": "test",
+                "category": 2,
+                "logo": "test",
+                "contacts": [
+                    {
+                        "contact_type": 1,
+                        "value": "01111111"
+                    }
+                ],
+                "branches": [
+                    {
+                        "latitude": "Test",
+                        "longtitude": "Test",
+                        "adress": "Test"
+                    }
+                ]
             }
-        ],
-        "branches": [
-            {
-                "latitude": "Test",
-                "longtitude": "Test",
-                "adress": "Test"
-            }
-        ]
-    }
 ```
 ### Course [/course/{course_id}]
 
