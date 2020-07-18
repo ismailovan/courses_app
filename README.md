@@ -42,8 +42,8 @@ Go to localhost:
 [Courses Application's API](https://coursesappapi.docs.apiary.io/#)
 
 APIs for:
-* [Course List](https://private-d9ffe8-coursesappapi.apiary-mock.com/course)
-* [Course Detail](https://private-d9ffe8-coursesappapi.apiary-mock.com/course/course_id)
+* Course List [/course](https://private-d9ffe8-coursesappapi.apiary-mock.com/course)
+* Course Detail [/course/{course_id}](https://private-d9ffe8-coursesappapi.apiary-mock.com/course/course_id)
     
 ## Deployment
 
