@@ -117,7 +117,7 @@ class GetSingleCourseTest(TestCase):
 		response = self.client.delete(reverse('courseDetail', kwargs={'pk': self.course1.pk}))
 		self.assertEquals(response.status_code, status.HTTP_204_NO_CONTENT)
 
-	def test_invalid_delete_puppy(self):
+	def test_invalid_delete_course(self):
 		response = client.delete(reverse('courseDetail', kwargs={'pk': 30}))
 		self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
 
