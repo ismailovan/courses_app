@@ -1,1 +1,1 @@
-web: gunicorn courses_app.wsgi -b 0.0.0.0:$PORT
+web: gunicorn courses_app.wsgi --access-logfile -
