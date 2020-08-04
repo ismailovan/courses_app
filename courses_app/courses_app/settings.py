@@ -46,8 +46,8 @@ INSTALLED_APPS = [
     'branch.apps.BranchConfig',
     'contact.apps.ContactConfig',
     'course.apps.CourseConfig',
-    #'whitenoise.runserver_nostatic',
-    'django_heroku'
+    'whitenoise.runserver_nostatic',
+    #'django_heroku'
 
 ]
 
