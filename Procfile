@@ -1,1 +1,1 @@
-web: gunicorn courses_app/courses_app/wsgi:app 
+web: gunicorn main:app 
