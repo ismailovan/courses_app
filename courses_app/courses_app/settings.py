@@ -64,7 +64,7 @@ MIDDLEWARE = [
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-ROOT_URLCONF = 'courses_appl.urls'
+ROOT_URLCONF = 'courses_app.urls'
 
 TEMPLATES = [
     {
