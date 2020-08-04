@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'contact.apps.ContactConfig',
     'course.apps.CourseConfig',
     'whitenoise.runserver_nostatic',
+    'django_heroku'
 
 ]
 
@@ -95,7 +96,7 @@ DATABASES = {
         'USER': 'naku',
         'PASSWORD': 'naku',
         'HOST': 'localhost',
-        'PORT': '5432',
+        'PORT': '',
 
     }
 }
@@ -149,8 +150,7 @@ STATICFILES_DIRS = [
     os.path.join(PROJECT_ROOT, 'static'),
 ]
 
-os.makedirs(STATIC_TMP, exist_ok=True)
-os.makedirs(STATIC_ROOT, exist_ok=True)
+
 
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
