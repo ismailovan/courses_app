@@ -1,1 +1,1 @@
-web: gunicorn courses_app.wsgi --access-logfile -
+web: gunicorn courses_app.wsgi --logfile -
