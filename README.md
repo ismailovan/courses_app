@@ -53,8 +53,8 @@ APIs for:
 
 Deployed to Heroku
 
-List of courses (courses/)[https://courses-app-naku.herokuapp.com/courses/]
-Detail of one course (courses/course_id/)https://courses-app-naku.herokuapp.com/courses/1/
+* List of courses [courses/](https://courses-app-naku.herokuapp.com/courses/)
+* Detail of one course [courses/course_id/](https://courses-app-naku.herokuapp.com/courses/1/)
 
 ## Built With
 
