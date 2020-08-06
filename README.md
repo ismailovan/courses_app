@@ -51,6 +51,11 @@ APIs for:
 
 ## Deployment
 
+Deployed to Heroku
+
+List of courses (courses/)[https://courses-app-naku.herokuapp.com/courses/]
+Detail of one course (courses/course_id/)https://courses-app-naku.herokuapp.com/courses/1/
+
 ## Built With
 
 * [Django](https://docs.djangoproject.com/en/3.0/)
